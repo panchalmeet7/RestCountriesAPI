@@ -1,0 +1,46 @@
+.header {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.allcards {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  /* grid: auto / auto auto; */
+  padding: 40px;
+}
+
+.boldtext {
+  font-weight: bold;
+}
+
+/* .Cards{
+   border: 3px solid rgba(249,249,249,0.1); 
+   border-radius: 10px; 
+  box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+  rgb(0 0 0 / 73%) 0px 16px 10px -10px; 
+
+} */
+
+.textleft {
+  text-align: left;
+  /* padding-bottom: 70px; */
+}
+
+.wrap {
+  box-shadow: rgb(0 0 0 / 67%) 0px 40px 40px -20px,
+    rgb(0 0 0 / 80%) 0px 19px 30px -10px;
+  border-radius: 10px;
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+.countryname {
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
